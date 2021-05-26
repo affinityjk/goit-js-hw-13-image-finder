@@ -9,7 +9,7 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   line-height: 1.5;
   color: #2a2a2a;
-  background-color: #abebe2;
+  background-color: #d0e0de;
   font-size: 28px;
   width: 1600px;
   margin: 0 auto;
@@ -28,6 +28,7 @@ ul {
 }
 
 li {
+  margin: 0;
   list-style: none;
 }
 
@@ -105,7 +106,7 @@ img {
 }
 
 .gallery-item {
-  height: 450px;
+  height: 350px;
   overflow: hidden;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -118,6 +119,28 @@ img {
   object-fit: cover;
 }
 
+.photo-card {
+  background-color: #fff;
+  padding: 10px;
+}
+
 .stats {
-  padding-left: 20px;
+  display: flex;
+
+  justify-content: center;
+
+  padding: 40px;
+}
+
+.stats-item {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.material-icons {
+  width: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-right: 20px;
 }
