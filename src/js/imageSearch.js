@@ -28,7 +28,7 @@ function onLoadMore() {
   newApiService.fetchImages()
     .then(renderGalleryMarkup);
  
-  const totalHeight = refs.galleryRef.clientHeight + 80;
+  const totalHeight = refs.galleryRef.clientHeight + 270;
   setTimeout(() => {
     window.scrollTo({
       top: totalHeight,
