@@ -27,4 +27,4 @@ var e,n=arguments[3];!function(t){"object"==typeof exports&&"undefined"!=typeof 
 },{"./apiService":"eQwa","../templates/galleryCard.hbs":"B7cY","./getRefs":"qJUB","./notifications":"w6UM","./lightbox":"bLn9"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/imageSearch");
 },{"./sass/main.scss":"clu1","./js/imageSearch":"JJD4"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-13-image-finder/src.4709d4c1.js.map
+//# sourceMappingURL=/goit-js-hw-13-image-finder/src.46b4b2be.js.map
